@@ -1,3 +1,4 @@
+// Модальное окно Done
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
@@ -13,6 +14,7 @@ window.onclick = function(event) {
   }
 }
 
+// Модальное окно Create Border
 var border = document.getElementById("myBorder")
 var button = document.getElementById("Btn")
 var close = document.getElementsByClassName("shut")[0]
@@ -36,6 +38,7 @@ modal.style.height=height+"px"
 let btd = document.getElementById("button")
 btd.addEventListener("click", createElement)
 
+// Создание newDiv
 function createElement(){
     newDiv = document.createElement("div")
     let bcg=document.getElementById("input-id").value;
@@ -46,8 +49,7 @@ function createElement(){
     newDiv.style.display= "inline-block"
     document.querySelector(".container").appendChild(newDiv)
 }
-
-
+// Создание Тасков
 var list = document.querySelector('ul');
 list.addEventListener('click', function (ev) {
     if(ev.target.tagName === "LI") {
@@ -57,7 +59,6 @@ list.addEventListener('click', function (ev) {
        div.remove();
     }
 }, false);
-
 function newElement() {
     var li = document.createElement('li');
     var inputValue = document.getElementById('toDoEl').value;
@@ -76,6 +77,7 @@ function newElement() {
     li.appendChild(span);
 }
 
+// Модальное окно help
 var dora = document.getElementById("Modal");
 var click = document.getElementById("help");
 var joy = document.getElementsByClassName("lock")[0];
