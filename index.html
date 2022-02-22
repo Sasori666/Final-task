@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+<div id="to_do">
+<h1>To do</h1>
+<button id="Task">add another task</button>
+<button id="help">...</button>
+<div id="Modal" class="Lodal">
+<div class="Modal-content">
+<input type="button" id="hider" value="Нажмите, чтобы спрятать div" />
+<span class="lock">&times;</span>
+</div>
+</div>
+</div>
+<div id="In_Progress">
+<h1>In Progress</h1>
+<button id="helper">...</button>
+<button id="create">add another task</button>
+</div>
+<div id="Done">
+<h1>Done</h1>
+<button id="helpy">...</button>
+<button id="myBtn">add another task</button>
+<div id="myModal" class="modal">
+<div class="modal-content">
+<span class="close">&times;</span>
+<input type="text" placeholder="Введите новое дело..." id="toDoEl">
+<span class="addBtn" onclick="newElement()">Добавить</span>
+</div>
+<ul id="list"></ul>
+</div>
+</div>
+<button id="Btn"> Create border </button>
+<div id="myBorder" class="border">
+<div class="border-content">
+<input type="color" id="input-id">
+<span class="shut">&times;</span>
+<input type="text" placeholder="Add New Border" id="toDoIt">
+<input type="text" placeholder="Also Description" id="toDo">
+<button  id="button">Create Border</button>
+</div>
+</div>
+<script src="script.js"></script>
+</div>
+</body>
+</html>
